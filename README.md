@@ -1,4 +1,4 @@
-##How compile and execute java with library trough terminal in linux
+###How compile and execute java with library trough terminal in linux
 
 For example QuickFindUF.java
 
