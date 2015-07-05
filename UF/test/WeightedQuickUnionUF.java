@@ -27,9 +27,9 @@ public class WeightedQuickUnionUF {
     }
 
     /**
-     * Returns the component identifier for the component containing site p
+     * Returns the component identifier for the component containing site <tt>p</tt>.
      * @param p the integer representing one site
-     * @return the component identifier for the component containing site p
+     * @return the component identifier for the component containing site <tt>p</tt>
      * @throws java.lang.IndexOutOfBoundsException unless 0 <= p < N
      */
     public int find(int p) {
@@ -102,6 +102,7 @@ public class WeightedQuickUnionUF {
             StdOut.println(p + " " + q);
         }
         StdOut.println(uf.count() + " components");
+        for (int i: uf.parent)
+			System.out.println(i);
     }
-
 }
